@@ -1,2 +1,2 @@
-# loudspeaker_simulation
-Loudspeaker response simulation
+# Loudspeaker response simulation
+
