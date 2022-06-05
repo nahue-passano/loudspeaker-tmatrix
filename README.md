@@ -1,5 +1,6 @@
 # Loudspeaker response simulation (free-field)
-
+---
+## **Description**
 In a Electroacoustics course, a simulation was developed in Python that allows to study loudspeakers response in frequency, impedance and velocity with some Thiele-Small parameters as input. 
 
 The notebook has six parts:
@@ -11,4 +12,11 @@ The notebook has six parts:
 - **5. Frequency response:** The magnitude of the acoustic frequency response is calculated. This procedure takes into account the inverse transfer function of the system between the electric and acoustic world. The input voltage is 2.83 V, so the graph shows the sensitivity of the system.
 - **6. Graphs:** The complete system response is shown, with the acoustic frequency response, the electrical impedance response, the mechanical velocity response and the air radiation impedance divided into the real and imaginary parts. The rest of the Thiele-Small parameters are also shown.
 
+<img src="preview.jpg" alt="preview" />
 
+---
+### **Library Requirements**
+    numpy
+    pyqt5
+    matplotlib
+--- 
