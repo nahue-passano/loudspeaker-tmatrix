@@ -1,0 +1,14 @@
+electrical:
+  input_voltage: 2.83               # [V]
+  coil_resistance: 6.3              # [ohm]
+  coil_inductance: 1.534e-3         # [mH]
+
+electromechanical_factor: 5.089     # [T*m]
+
+mechanical:
+  mass: 12.35e-3                    # [kg]
+  compliance: 0.671e-3              # [mm/N]
+  resistance: 0.745                 # [N/(m/s)] = [kg/s]
+
+acoustical:
+  effective_diameter: 13.4e-2       # [cm]

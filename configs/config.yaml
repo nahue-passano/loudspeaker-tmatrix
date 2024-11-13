@@ -1,0 +1,14 @@
+default_loudspeaker_cfg: "configs/default_loudspeaker.yaml"
+
+frequency:
+  min: 10
+  max: 4000
+  n_bins: 2048
+
+acoustical_constants:
+  sound_speed: 343                  # [m/s]
+  air_density: 1.16                 # [kg/m^3]
+  atmospheric_pressure: 101325      # [Pa]
+  reference_pressure: 20e-6   # [Pa]
+  measurement_distance: 1           # [m]
+  directivity_factor:  2
