@@ -60,7 +60,7 @@ with single_speaker:
             loudspeaker_cfg.mechanical.resistance,
         )
         slider_spk1_Mm = st.slider(
-            "Mechanical Mass (Mms) [g] .",
+            "Mechanical Mass (Mmd) [g] .",
             1.0,
             100.0,
             loudspeaker_cfg.mechanical.mass * 1e3,
@@ -142,7 +142,7 @@ with two_speakers:
             loudspeaker_cfg.mechanical.resistance,
         )
         slider_spk1_Mm = st.slider(
-            "Mechanical Mass (Mms) [g]",
+            "Mechanical Mass (Mmd) [g]",
             1.0,
             100.0,
             loudspeaker_cfg.mechanical.mass * 1e3,
@@ -192,7 +192,7 @@ with two_speakers:
             loudspeaker_cfg.mechanical.resistance,
         )
         slider_spk2_Mm = st.slider(
-            "Mechanical Mass (Mms) [g].",
+            "Mechanical Mass (Mmd) [g].",
             1.0,
             100.0,
             loudspeaker_cfg.mechanical.mass * 1e3,
