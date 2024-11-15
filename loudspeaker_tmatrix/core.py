@@ -76,7 +76,7 @@ def simulate_loudspeaker(
     mechanical_displacement = mechanical_velocity / (
         1j * angular_freq_array
     )  # [(m/s) / (rad/s)] = [m/rad]
-    mechanical_displacement = mechanical_displacement * 2 * np.pi * 1000  # [mm]
+    mechanical_displacement = mechanical_displacement * 1000  # [mm]
 
     # Acoustical response
     air_impedance = acoustical_constants.air_density * acoustical_constants.sound_speed
