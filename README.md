@@ -1,5 +1,16 @@
 # Loudspeaker simulation
 
+---
+
+### 🚀 Try the Demo on Hugging Face
+Explore and interact with the demo on Hugging Face Spaces!
+
+➡️ [Click here to try the demo on Hugging Face](https://huggingface.co/spaces/nahue-passano/loudspeaker_simulation)
+
+Feel free to provide feedback or report any issues while testing the demo. Your input helps to improve!
+
+---
+
 ### 📋 Prerequesites
 
 
